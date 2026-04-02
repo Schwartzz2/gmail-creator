@@ -449,4 +449,4 @@ class ArmyCreator:
             
             # Random user agent
             ua = UserAgent()
-            chrome_options.add_argument(f'us
+        chrome_options.add_argument('--user-data-dir')
